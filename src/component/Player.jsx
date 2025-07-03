@@ -17,6 +17,9 @@ export default function Player({
     }
     // setIsEditing(!isEditing); this is worst practice than the above code cause react behind the scene schedules the setCode not immideately executes it
   }
+  function hkjh(){
+    // this is a function that does nothing, it is just to show the syntax
+  }
 
   function handleChange(event) {
     setPlayerName(event.target.value);
